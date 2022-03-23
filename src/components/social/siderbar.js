@@ -26,7 +26,7 @@ export default function Sidebar() {
             </Flex>
           </li>
         ))}
-      </ul>
+      </ul>      
     </Box>
   )
 }
@@ -49,7 +49,6 @@ const styles = {
         color: "white",
       },
     },
-
     aloneList: {
       width: "100%",
       pl: "15px",

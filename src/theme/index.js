@@ -15,6 +15,7 @@ export default {
     accent: '#609', // a contrast color for emphasizing UI
     yellow: '#F6C416',
     section_bg_color: '#F4F5F7',
+    social_text: '#203758',
     // highlight	a background color for highlighting text
     modes: {
       dark: {
@@ -88,7 +89,7 @@ export default {
   },
   section: {
     keyFeature: {
-      py: [8, null, 9, null, null, 9],
+      py: [8, null, 9, null, null, 10],
     },
     campaignFeature : {
       pt: ["90px", "110px", "110px", "110px", "150px", "150px"],
@@ -427,5 +428,5 @@ export default {
       pl: ['5%', '6%', '8%', '10%', '13%', '15%'],
       pr: ['5%', '6%', '8%', '10%', '13%', '15%'],
     },
-  },
+  },  
 };

@@ -16,7 +16,7 @@ const text = {
     taglineTitle: 'Campaign Tagline *',
     taglineContent: 'Provide a short description that best describes your campaign to your audience',
     featureTitle: 'Featured Image *',
-    featureContent: ['Upload a square image that represents your campaign.', <br></br>, 
+    featureContent: ['Upload a square image that represents your campaign.', <br key={1}></br>, 
         '640 x 640 recommended resolution, 220 x 220 minimum resolution.'],
     categoryTitle: 'Category *',
     categoryContent: 'To help backers find your campaign, select a category that best represents your project.',
@@ -79,7 +79,7 @@ export default function Basic() {
                     <Box>
                         <Textgroup title={text.durationTitle} content={text.durationContent} />
                         <Input sx={styles.input} placeholder={''} />
-                    </Box>     
+                    </Box>
                     <Box>
                         <Grid sx={styles.grid}>
                             <Button sx={styles.button_back}>Back</Button>
@@ -129,7 +129,8 @@ const styles = {
         color: '#989898',
         border: '2px solid #989898',
         mt: '22px',
-        mb: '6px'
+        mb: '6px',
+        borderRadius: '12px'
     },
     button: {
         width: '100%',
